@@ -49,6 +49,7 @@ df = pd.DataFrame({
 })
 
 # 计算 p 值
+# 计算 p 值
 _, p_ctrl_trtA = stats.ttest_ind(ctrl, trtA)
 _, p_ctrl_trtB = stats.ttest_ind(ctrl, trtB)
 _, p_trtA_trtB = stats.ttest_ind(trtA, trtB)
